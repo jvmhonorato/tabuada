@@ -1,8 +1,9 @@
 const express = require('express')
 const router = express.Router()
+const indexController = require('../controllers/index')
 
-//atraves do express pega os dabdos de res.send e manda pra main index.js
-router.get('/',(req,res) => res.send('Tabuada') )
+//o indexController.home é o ponto de ligação entre controller e main index.js
+router.get('/',indexController.home )
 
 
 

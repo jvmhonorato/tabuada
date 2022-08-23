@@ -6,4 +6,11 @@
 
 4: criar pasta views, controller e routes e um index.js dentro de cada uma delas
 
-5:
+5:mandando dados de routes pra index.js diretamente pra testar
+
+6:depois criamos a lógica e, controllers e usamos routers como ponte pra ligar controllers e main index.js
+
+7: baixar bootstrap na pasta developers copia os arquivos:
+C:\Users\vituh\OneDrive\Documentos\Developement\bootstrap-3.3.7\docs\examples\ e colar no projeto
+
+8: colar o conteúdo de index.html
