@@ -1,3 +1,9 @@
 1: .gitignore, npm init
 
-2:
+2: instalar dependencias com express e ejs
+
+3:criar server em index.js
+
+4: criar pasta views, controller e routes e um index.js dentro de cada uma delas
+
+5:
