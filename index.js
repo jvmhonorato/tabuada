@@ -4,7 +4,14 @@ const app = express()
 const port = 3000
 //importado dados de routes
 const indexRouter = require('./routes/index')
+const tabuadaRouter = require('./routes/tabuada')
 //=
+
+//Static files
+app.use(express.static("public"));
+app.use(express.static(__dirname +"public/css"));
+app.use(express.static(__dirname +"public/js"));
+app.use(express.static(__dirname +"public/img"));
 
 // fazer o caminho do diretorio atual para /views
 app.set('views', path.join(__dirname,'views'))
@@ -13,6 +20,7 @@ app.set('view engine','ejs')
 
 //anexando dados de routes a '/' rota principal
 app.use('/', indexRouter)
+app.use('/tabuadas',tabuadaRouter)
 
 
 

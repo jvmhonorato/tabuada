@@ -11,6 +11,18 @@
 6:depois criamos a lógica e, controllers e usamos routers como ponte pra ligar controllers e main index.js
 
 7: baixar bootstrap na pasta developers copia os arquivos:
-C:\Users\vituh\OneDrive\Documentos\Developement\bootstrap-3.3.7\docs\examples\ e colar no projeto
+C:\Users\vituh\OneDrive\Documentos\Developement\bootstrap-3.3.7\docs\examples\starter-template   e colar no projeto
 
-8: colar o conteúdo de index.html
+8: colar o conteúdo de index.html em home.ejs
+
+9:  copiar assets, dist  e o arquivo starter-template.css que estão na pasta baixada do bootstrap e colar em public
+
+10: configurar o middleware em main index.js pra receber arquivos estáticos
+
+11: criar header.ejs e footer.ejs e importa com include pra honme.ejs
+
+12: criar route tabuada.js no controller depois traçar rotas pra index.js routes e depois pra main index.js
+
+13: criar dentro de views tabuada/list.ejs add o <%-include%> header e footer dentro dele
+
+14: Criar em list.ejs um for pra gerar um loop
