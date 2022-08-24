@@ -25,4 +25,8 @@ C:\Users\vituh\OneDrive\Documentos\Developement\bootstrap-3.3.7\docs\examples\st
 
 13: criar dentro de views tabuada/list.ejs add o <%-include%> header e footer dentro dele
 
-14: Criar em list.ejs um for pra gerar um loop
+14: Criar em list.ejs um for pra gerar um loop 
+
+15: add num: req.params.num em controller/tabuada.js e depois cria tabuada.ejs e trçar uma rota em routes/tabuada.js pra lá do tipo: /do/:num
+
+16: em tabuada.ejs criamos a logica com laço FOR

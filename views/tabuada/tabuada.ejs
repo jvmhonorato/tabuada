@@ -1,0 +1,24 @@
+<%- include('../partials/header.ejs')%>
+
+<div class="container-sm">
+  <div class="container-sm">
+    
+    <h1>Escolha o seu número</h1>
+
+    <p class="lead">Tabuada do número: <%- num %></p>
+  
+  <table class="table table-striped">
+    <% for(let i=1; i<=100; i++){ %>
+    <tr>
+      <td><%= num %>&nbsp;</td>
+      <td>&nbsp; x &nbsp;</td>
+      <td><%= i%></td>
+      <td>= &nbsp; </td>
+      <td><%= (num*i)%></td>
+    </tr>
+    <% } %>
+  </table>
+  </div>
+</div>
+
+<%- include('../partials/footer.ejs')%>
