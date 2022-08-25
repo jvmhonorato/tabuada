@@ -47,4 +47,30 @@ C:\Users\vituh\OneDrive\Documentos\Developement\bootstrap-3.3.7\docs\examples\st
 
 25: escrever teste do mocha "test": "mocha './{,!(node_modules)/**}/*.test.js'"
 
-26: criar index.test.js e tabuada.test.js
+26: criar index.test.js e tabuada.test.js e passar os testes
+
+27: intalar o istanbul nyc : npm install --dev 
+
+28:​Aula Inicial, Rotas e Middleware:
+https://github.com/devpleno/fsm-proj-express
+
+Controllers, Query String e Query Params:
+https://github.com/devpleno/fsm-proj-express/tree/Controllers
+
+Partials:
+https://github.com/devpleno/fsm-proj-express/tree/Partials
+
+Condicionais e Repetição:
+https://github.com/devpleno/fsm-proj-express/tree/Condicionais-Loop
+
+Corrigindo Testes:
+https://github.com/devpleno/fsm-proj-express/tree/Fix-Tests
+
+Projeto Tabuada:
+https://github.com/devpleno/fsm-tabuada.git​
+
+Projeto Tabuada [a partir de 04:26]
+https://github.com/devpleno/fsm-tabuada/tree/Final
+
+Projeto Tabuada: Testes:
+https://github.com/devpleno/fsm-tabuada/tree/Testes
