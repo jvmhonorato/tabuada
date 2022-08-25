@@ -34,3 +34,17 @@ C:\Users\vituh\OneDrive\Documentos\Developement\bootstrap-3.3.7\docs\examples\st
 17: add em port o: process.env.PORT || 3000
 
 18: add start: node index.js em package.json
+
+19: começar implentação de teste unitários na app
+
+20: em tabuada.js controller na função list inserir  um array , um  laço FOR e um push do laço pro array, depois passar {numeros} pela rota 
+
+21: em tabuada.js na função tabuada  passar const tabuda com array vazio depois passar const pegando os parametros.num e depois o laço FOR, em seguida um push empurrando os resultados e por ultimo passar função tabuada no render
+
+23: depois em tabuada.ejs passar o tabuada.map pra poder passar o calculo pro controller
+
+24: instalar o mocha e o chai: npm install --dev mocha, npm install --dev chai
+
+25: escrever teste do mocha "test": "mocha './{,!(node_modules)/**}/*.test.js'"
+
+26: criar index.test.js e tabuada.test.js

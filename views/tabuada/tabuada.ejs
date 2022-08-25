@@ -8,15 +8,16 @@
     <p class="lead">Tabuada do número: <%- num %></p>
   
   <table class="table table-striped">
-    <% for(let i=1; i<=100; i++){ %>
+    
+    <% tabuadas.map(item => { %>
     <tr>
-      <td><%= num %>&nbsp;</td>
+      <td><%= item.num %>&nbsp;</td>
       <td>&nbsp; x &nbsp;</td>
-      <td><%= i%></td>
+      <td><%= item.i%></td>
       <td>= &nbsp; </td>
-      <td><%= (num*i)%></td>
+      <td><%= item.resultado%></td>
     </tr>
-    <% } %>
+    <% }) %>
   </table>
   </div>
 </div>
