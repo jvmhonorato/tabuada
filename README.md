@@ -6,7 +6,7 @@
 Application that shows multiplication tables from 1 to 100 
 
 
-## Technology 
+## Technologies 
 
 Here are the technologies used in this project.
 
